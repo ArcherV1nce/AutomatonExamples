@@ -30,6 +30,11 @@
             return _outputs.GetOutput(CurrentState).Symbol;
         }
 
+        public char GetCurrentOutputSymbol()
+        {
+            return _outputs.GetOutput(CurrentState).Symbol;
+        }
+
         private void Init()
         {
             Console.WriteLine($"Moore machine activated.");

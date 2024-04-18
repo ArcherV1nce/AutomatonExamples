@@ -29,7 +29,7 @@
             string input = "";
             char inputSymbol = '#';
             string fullInput = "";
-            string finalOutput = "";
+            string finalOutput = "" + _automaton.GetCurrentOutputSymbol();
 
             do
             {
